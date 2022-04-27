@@ -1,0 +1,97 @@
+.mainTable{
+    background-color: #78c81e;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+}
+.subTable{
+    height: 50vh;
+    border-radius: 10px 10px 0px 0px;
+}
+.header p{
+    color: black !important;
+}
+
+/* search */
+.search{
+    /* background-color: #78c81e;
+    overflow: hidden !important; */
+    height: 50px;
+}
+
+
+/* input */
+.icon {
+  padding-left: 25px;
+  background: url("../img/search.svg") no-repeat;
+  background-position: 2px;
+  background-size: 20px;
+}
+input{
+    border-radius: 5px;
+    border: solid 1px #363636;
+    width: 100%;
+    background-color: white !important;
+}
+input:focus{
+    border-radius: 5px;
+}
+/* dropdown */
+.dItem:active{
+    background-color: #78c81e !important;
+}
+#dropdown-basic-button{
+    background-color: #78c81e;
+    border: none;
+    box-shadow: none;
+}
+/* new button */
+.newBtn{
+    /* background-color: #78c81e;
+    border: none;
+    color: #FFFFFF; */
+    color: #fff;
+    background-color: #78c81e;
+    border: 0;
+    padding: 0.5rem .51rem;
+    font-size: 1rem;
+    box-shadow: 0px 5px 10px rgba(darken(dodgerblue, 40%));
+    transition: all .2s;
+    border-radius: 5px;
+    border-bottom: 4px solid lighten(gray, 70%);
+}
+.newBtn:hover{
+    /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2, 1.2); */
+    box-shadow: 0px 15px 25px -5px rgba(darken(dodgerblue, 40%));
+    transform: scale(1.1);
+}
+.newBtn:active{
+    box-shadow: 0px 4px 8px rgba(darken(dodgerblue, 30%));
+    transform: scale(.98);
+}
+/* Footer */
+.footer{
+    height: 50px;
+}
+.footer p{
+    font-weight: 500;
+}
+
+/* official footer color code #545871 */
+
+
+.helpBtn{
+    background-color: #78c81e !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.btn-close{
+    box-shadow: none !important;
+}
+.offcanvas{
+  
+}
