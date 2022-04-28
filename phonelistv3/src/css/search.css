@@ -1,0 +1,9 @@
+.form-control::placeholder{
+    padding-left: 35%;
+}
+.form-control{
+    box-shadow: none !important;
+}
+.form-control:focus{
+    border-color: #78c81e !important;
+}
