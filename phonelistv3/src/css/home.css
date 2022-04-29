@@ -1,0 +1,57 @@
+.card-img {
+  width: 50% !important;
+}
+
+/* scrollbar style starts here */
+
+.left-customized-scrollbar {
+  display: block;
+  overflow: auto;
+  height: 70vh;
+}
+
+.right-customized-scrollbar {
+  display: block;
+  overflow: auto;
+  height: 70vh;
+  direction: rtl;
+}
+
+.left-customized-scrollbar::-webkit-scrollbar {
+  background-color: #f1f1f1;
+}
+
+.left-customized-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1;
+}
+.left-customized-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(120, 200, 30, 0.7);
+}
+
+.left-customized-scrollbar::-webkit-scrollbar-thumb:active {
+  background-color: #78c81e;
+}
+
+.right-customized-scrollbar::-webkit-scrollbar {
+  background-color: #f1f1f1;
+}
+
+.right-customized-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1;
+}
+.right-customized-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(120, 200, 30, 0.7);
+}
+
+.right-customized-scrollbar::-webkit-scrollbar-thumb:active {
+  background-color: #78c81e;
+}
+
+/* ended here */
+
+
+/* card style */
+.card:hover{
+    background-color: #78c81e;
+    color: white;
+}
